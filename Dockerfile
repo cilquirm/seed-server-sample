@@ -1,3 +1,5 @@
 FROM gitpod/workspace-full:latest
-USER root
-RUN curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+USER gitpod
+RUN curl https://sh.rustup.rs -sSf | sh -s -- -y
+RUN rustup target add wasm32-unknown-unknown
+RUN cargo install --force cargo-make

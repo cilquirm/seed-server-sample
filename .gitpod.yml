@@ -1,4 +1,4 @@
-tasks:
-  - before: /workspace/seed-server-sample/setup.sh
+image:
+  file: Dockerfile
 ports:
   - port: 8000
