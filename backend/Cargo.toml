@@ -1,0 +1,10 @@
+[package]
+name = "backend"
+version = "0.1.0"
+authors = ["Aadi Deshpande <aadi.deshpande@gmail.com>"]
+edition = "2019"
+
+[dependencies]
+actix-web = "1.0"
+
+shared = { path = "../shared" }

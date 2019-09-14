@@ -1,0 +1,8 @@
+[package]
+name = "shared"
+version = "0.1.0"
+authors = ["Aadi Deshpande <aadi.deshpande@gmail.com>"]
+edition = "2019"
+
+[dependencies]
+serde = "^1.0"
